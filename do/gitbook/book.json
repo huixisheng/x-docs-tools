@@ -1,0 +1,88 @@
+{
+    "title": "gitbook测试",
+    "description": "gitbook测试",
+    "language": "zh",
+    "removePl": [
+        "sitemap",
+        "disqus",
+        "baidu",
+        "splitter",
+        "editlink",
+        "tree",
+        "google_code_prettify",
+        "github"
+    ],
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        }
+    },
+    "plugins": [
+        "copy-code-button",
+        "-highlight",
+        "prism",
+        "include-codeblock",
+        "ace",
+        "maxiang",
+        "jsfiddle",
+        "codepen",
+        "jsbin",
+        "todo",
+        "-search",
+        "-search-pro",
+        "tbfed-pagefooter",
+        "duoshuo",
+        "-codeblock-filename",
+        "book-summary-scroll-position-saver",
+        "anchor-navigation",
+        "-anchors"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "webpack-handbook"
+        },
+        "github": {
+            "url": ""
+        },
+        "jsfiddle": {
+            "type": "script",
+            "tabs": ["result", "js", "css", "html"],
+            "height": "500",
+            "width": "500",
+            "fontColor": "00FF00"
+        },
+        "codepen": {
+            "height": 400,
+            "theme": 14038,
+            "description": "somepen",
+            "defaultTab": "html"
+        },
+        "editlink": {
+            "base": "",
+            "label": "编辑本页"
+        },
+        "baidu": {
+            "token": ""
+        },
+        "sitemap": {
+            "hostname": ""
+        },
+        "duoshuo": {
+            "short_name": "mzbook",
+            "theme": "default"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord": ["规范"]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "&copy huixisheng",
+            "modify_label": "最后修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
